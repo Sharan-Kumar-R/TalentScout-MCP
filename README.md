@@ -1,4 +1,4 @@
-# TalentScout-MCP
+<h1 align="center">TalentScout-MCP</h1>
 
 A Model Context Protocol (MCP) server that acts as an intelligent HR Assistant. It connects your AI agents (like Claude Desktop) to LinkedIn, allowing them to search for candidates and jobs autonomously.
 
@@ -8,19 +8,7 @@ A Model Context Protocol (MCP) server that acts as an intelligent HR Assistant. 
 -   **Search Jobs**: Connects to LinkedIn's job search to find active listings.
 -   **Profile Inspection**: Retrieves detailed profile information (where available).
 
-## Project Structure
 
-```
-TalentScout-MCP/
-├── images/                 # Demo screenshots
-├── .env.example           # Template for environment variables
-├── .gitignore             # Git ignore rules
-├── linkedin_client.py     # Core LinkedIn interaction logic (DuckDuckGo X-Ray & API)
-├── README.md              # Project documentation
-├── requirements.txt       # Python dependencies
-├── server.py              # FastMCP server implementation
-└── test_credentials.py    # Script to verify LinkedIn credentials
-```
 
 ## Demo
 
@@ -105,6 +93,20 @@ Add the following to your `claude_desktop_config.json`:
     }
   }
 }
+```
+
+## Project Structure
+
+```
+TalentScout-MCP/
+├── images/                 # Demo screenshots
+├── .env.example           # Template for environment variables
+├── .gitignore             # Git ignore rules
+├── linkedin_client.py     # Core LinkedIn interaction logic (DuckDuckGo X-Ray & API)
+├── README.md              # Project documentation
+├── requirements.txt       # Python dependencies
+├── server.py              # FastMCP server implementation
+└── test_credentials.py    # Script to verify LinkedIn credentials
 ```
 
 ## Security Note
