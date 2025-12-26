@@ -25,10 +25,10 @@ TalentScout-MCP/
 ## Demo
 
 **Candidate Search**
-[![Candidate Search Demo](images/candidate_search_demo.png)](images/candidate_search_demo.png)
+[![Candidate Search Demo](images/candidate_search_demo_v2.png)](images/candidate_search_demo_v2.png)
 
 **Job Search**
-[![Job Search Demo](images/job_search_demo.png)](images/job_search_demo.png)
+[![Job Search Demo](images/job_search_demo_v2.png)](images/job_search_demo_v2.png)
 
 ## Prerequisites
 
