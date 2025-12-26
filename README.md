@@ -12,11 +12,8 @@ A Model Context Protocol (MCP) server that acts as an intelligent HR Assistant. 
 
 ## Demo
 
-**Candidate Search**
-![Candidate Search Demo](images/candidate_search_demo_v2.png)
-
-**Job Search**
-![Job Search Demo](images/job_search_demo_v2.png)
+- [Candidate Search](images/candidate_search_demo_v2.png)
+- [Job Search](images/job_search_demo_v2.png)
 
 ## Prerequisites
 
