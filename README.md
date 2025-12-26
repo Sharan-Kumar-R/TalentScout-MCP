@@ -8,13 +8,27 @@ A Model Context Protocol (MCP) server that acts as an intelligent HR Assistant. 
 -   **Search Jobs**: Connects to LinkedIn's job search to find active listings.
 -   **Profile Inspection**: Retrieves detailed profile information (where available).
 
+## Project Structure
+
+```
+TalentScout-MCP/
+├── images/                 # Demo screenshots
+├── .env.example           # Template for environment variables
+├── .gitignore             # Git ignore rules
+├── linkedin_client.py     # Core LinkedIn interaction logic (DuckDuckGo X-Ray & API)
+├── README.md              # Project documentation
+├── requirements.txt       # Python dependencies
+├── server.py              # FastMCP server implementation
+└── test_credentials.py    # Script to verify LinkedIn credentials
+```
+
 ## Demo
 
 **Candidate Search**
-![Candidate Search Demo](images/candidate_search_demo.png)
+[![Candidate Search Demo](images/candidate_search_demo.png)](images/candidate_search_demo.png)
 
 **Job Search**
-![Job Search Demo](images/job_search_demo.png)
+[![Job Search Demo](images/job_search_demo.png)](images/job_search_demo.png)
 
 ## Prerequisites
 
@@ -26,8 +40,8 @@ A Model Context Protocol (MCP) server that acts as an intelligent HR Assistant. 
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/hr-agent-mcp.git
-    cd hr-agent-mcp
+    git clone https://github.com/Sharan-Kumar-R/TalentScout-MCP.git
+    cd TalentScout-MCP
     ```
 
 2.  **Create a Virtual Environment**:
@@ -95,3 +109,19 @@ Add the following to your `claude_desktop_config.json`:
 
 ## Security Note
 This tool uses your personal LinkedIn cookies. Do not share your `.env` file. Using automation on LinkedIn carries a risk of temporary account restriction if used excessively. Use responsibly.
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests if applicable
+5. Submit a pull request
+
+In case of any queries, please leave a message or contact me via the email provided in my profile.
+
+---
+
+<p align="center">
+⭐ <strong>Star this repository if you found it helpful!</strong>
+</p>
