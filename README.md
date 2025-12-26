@@ -1,6 +1,8 @@
 <h1 align="center">TalentScout-MCP</h1>
 
-A Model Context Protocol (MCP) server that acts as an intelligent HR Assistant. It connects your AI agents (like Claude Desktop) to LinkedIn, allowing them to search for candidates and jobs autonomously.
+**TalentScout-MCP** is an autonomous recruitment agent built on the **Model Context Protocol (MCP)**. It bridges the gap between Large Language Models (LLMs) like Claude and professional networks.
+
+By leveraging **Agentic Workflows**, this tool empowers AI to perform complex candidate sourcing tasks, analyze job market data, and retrieve professional insights—simulating the workflow of a human researcher.
 
 ## Features
 
@@ -105,6 +107,13 @@ TalentScout-MCP/
 ├── server.py              # FastMCP server implementation
 └── test_credentials.py    # Script to verify LinkedIn credentials
 ```
+
+## Legal Disclaimer
+This software is for **educational and research purposes only**. It is intended to demonstrate the capabilities of the Model Context Protocol (MCP) and agentic workflows.
+
+-   **Not affiliated with LinkedIn**: This tool is an independent project and is not endorsed by or associated with LinkedIn Corporation.
+-   **User Responsibility**: By using this software, you agree to comply with all applicable Terms of Service. The developer assumes no liability for account restrictions or bans resulting from the use of this tool.
+-   **Rate Limiting**: Use this tool responsibly and strictly adhere to ethical scraping guidelines.
 
 ## Security Note
 This tool uses your personal LinkedIn cookies. Do not share your `.env` file. Using automation on LinkedIn carries a risk of temporary account restriction if used excessively. Use responsibly.
